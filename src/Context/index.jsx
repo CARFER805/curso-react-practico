@@ -93,6 +93,8 @@ export const ShoppingCartProvider=({children}) => {
     
     }, [ items, searchByTitle, searchByCategory ])
 
+
+    
     return(
         <ShoppingCartContext.Provider value = {{
             count,
